@@ -1,0 +1,28 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[scripts]
+start = "jupyter notebook"
+
+[dev-packages]
+
+[packages]
+jupyter = "*"
+jupyter-contrib-nbextensions = "*"
+jupyter-nbextensions-configurator = "*"
+tensorflow = "==1.15"
+keras = "==2.2.5"
+cython = "*"
+numpy = "*"
+scipy = "*"
+pillow = "*"
+matplotlib = "*"
+scikit-image = "*"
+opencv-python = "*"
+h5py = "*"
+imgaug = "*"
+
+[requires]
+python_version = "3.6"

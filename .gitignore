@@ -113,7 +113,7 @@ dmypy.json
 
 .vscode
 .ipynb_checkpoints
-venv
-Mask_RCNN
+.venv
+models/
+modules/
 mask_rcnn_coco.h5
-coco
